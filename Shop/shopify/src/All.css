@@ -1,0 +1,540 @@
+.MainImage{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    
+}
+.content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 110px;
+   position: absolute;
+   margin-top: 260px;
+   margin-left: 25%;
+   
+   
+
+}
+.arrow{
+    font-size: 22px;
+}
+.content>h6,p{
+    font-size: 40px;
+    
+}
+.zomato{
+  height: 77px;
+}
+.content>p{
+    color: white;
+}
+.Location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#popular{
+margin: 45px 0px;
+padding: 6px;
+font-size: 50px;
+}
+.popdesc{
+    margin: 0px;
+    padding: 0;
+    font-size: 30px;
+
+}
+body{
+    font-family: Okra, Helvetica, sans-serif;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Cityboxx{
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: 22px;
+    width: 400px;
+    height: 70px;
+    display: flex;
+   
+}
+.InnerCityBoxx{
+    width: 80%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    width: 20%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Country{
+    width: 400px;
+    height: 65px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 22px;
+    border-radius: 15px;
+    
+}
+.CountryBox{
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 1400px;
+}
+.box{
+    
+    width: 1400px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.CountryBox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    
+}
+.Footer{
+   
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.FooterBox{
+    display: flex;
+    flex-direction: column;
+}
+.FooterBox>a{
+font-size: 23px;
+}
+.FooterBox>h4{
+    font-size: 28px;
+}
+.Footer1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(248, 248, 248);;
+}
+.Footer2{
+    width: 80%;
+}
+.Footer2Outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(248, 248, 248);;
+}
+.Footer2>p{
+    font-size: 19px;
+}
+a:hover{
+cursor: pointer;
+
+}
+
+.Cityboxx:hover{
+    box-shadow: 8px 8px 8px gray;
+}
+.Country:hover{
+    box-shadow: 8px 8px 8px gray;
+
+}
+.DishesBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.InnerDishesBox{
+    margin: 15px;
+}
+Button{
+    width: 94px;
+    margin: 10px;
+}
+.DishNav{
+   
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin:15px 0px;
+}
+.DishNavBox{
+
+width: 75%;
+height: 100%;
+display: flex;
+justify-content: space-evenly;
+}
+.DishBox1{
+    
+    width: 15%;
+    height: 100%;
+    display: flex;
+   
+    align-items: center;
+    
+}
+.DishBox1>img{
+    width: 100%;
+    height: 60%;
+    
+}
+.DishBox2{
+    border: 1.5px solid lightgray;
+    border-radius: 12px;
+    width: 55%;
+    height: 100%;
+    display: flex;
+ 
+    align-items: center;
+}
+.InnerDishBox2>input{
+    width: 140%;
+    height: 41px;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    
+}
+input:focus{
+    border: none;
+    outline: none;
+    
+}
+.DishBox3{
+    
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+
+}
+.DishBox3>a{
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid lightgray;
+    border-radius: 13px;
+    padding: 8px;
+    transition: ease-out;
+    transition-property: all;
+    transition-duration: 0.6s;
+    color: black;
+    
+}
+.DishBox3>a:hover{
+    background-color: black;
+    color: white;
+    scale: 0.9;
+    
+}
+.FooterBox>a{
+    transition-property: all;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+}
+.FooterBox>a:hover{
+    color: gray;
+    scale: 1.2;
+}
+.Cityboxx{
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transform-origin: center;
+}
+.Cityboxx:hover{
+    color: gray;
+    scale: 0.9;
+    cursor: pointer;
+}
+.Country{
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.4s; 
+}
+.Country:hover{
+    color: gray;
+    scale: 0.9;
+}
+.card-text{
+    font-size: 18px;
+}
+.DishesBox{
+    font-family: 'Croissant One', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.login-container {
+    background-image: url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+font-family: 'Poppins', sans-serif;
+  }
+  label{
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    height: 500px;
+    width: 400px;
+  }
+  
+  .login-box h1 {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 80%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .toggle-password.show {
+    color: #ff0000;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 9px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition-property: all;
+    transition: ease-out;
+    transition-duration: 0.6s;
+  }
+  
+  button:hover {
+    border: 1 px solid black;
+    background-color: #0056b3;
+    border-radius: 19px;
+    
+  }
+  .LoginInput{
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+  }
+  .LoginInput:focus{
+    scale: 1.2;
+    
+  }
+  .QuantityPara{
+    font-size: 20px;
+  }
+  .BottomLogo{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+  }
+  .img1{
+    width: 17%;
+    height: 271px;
+    margin: 10px;
+    padding: 20px;
+  }
+  .img1>img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* src/components/SignUp.css */
+
+  
+  
+ 
+    
+  .sign-up-container {
+    background-image: url('https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 386px;
+    height: 483px;
+  }
+  
+  .sign-up-container>form>input{
+    border: none;
+  }
+  .sign-up-container>form>button{
+    width: 110px;
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px  lightgray;
+    transition: ease-out;
+    transition-property: all;
+    transition-duration: 0.6s;
+
+  }
+  .sign-up-container>form>button:hover{
+    background-color: #007bff;
+    color: white;
+  }
+  .SignUpLabel{
+    margin: 2px;
+    font-size: 20px;
+  }
+    .DishesButton{
+    margin:15px;
+  }
+  .InnerCard{
+    
+    height: 722px;
+    width: 600px;
+    
+  }
+  .InnerCardImg{
+    width: 597px;
+    height: 412px;
+  }
+  .InnerCardDesc{
+    width: 597px;
+    height: 299px;
+    
+}
+  .InnerCardImg>img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .InnerCardBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .InnerCardButton{
+    width: 130px;
+    height: 55px;
+    margin-left: 100px;
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px  lightgray;
+    transition: ease-out;
+    transition-property: all;
+    transition-duration: 0.66s;
+  }
+  .InnerCardBotton:hover{
+    background-color: #007bff;
+    color: white;
+  }
+  .Check{
+    display: flex;
+    justify-content: end;
+    z-index: 99;
+    position: sticky;
+    top: 5px;
+  }
+  .Checkout{
+   
+    display: inline-block;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+   
+    width: 19%;
+    border: 2px solid gray;
+    background-color: black;
+    margin: 10px;
+  }
+  .Checkout>h2{
+  
+    margin-right: 10px;
+    
+    color: white;
+    margin-top: 8px;
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.4s;
+
+  }
+  .Checkout>h2>a{
+    text-decoration: none;
+    color: white;
+  }
+  .Checkout>h2:hover a{
+    
+    color: white;
+    
+  }
+  .Checkout>h2:hover{
+    scale: 0.8;
+  }
+  
+
+
+

@@ -1,0 +1,30 @@
+.transparent-bg {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .nav-link-custom{
+    color: white;
+  }
+  .solid-bg {
+    background-color: orange !important; /* Change this color as needed */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar.navbar-dark.fixed-top.px-4.clr {
+      padding: 15px 0; /* Adjust the padding as needed for mobile */
+    }
+  
+    .navitem.fs-4.text-center {
+      text-align: center;
+    }
+  
+    .navbar-toggler-icon {
+      background-color: #fff; /* Change the background color of the toggle button */
+    }
+  
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding: 10px 0; /* Adjust the padding as needed for mobile */
+    }
+  }

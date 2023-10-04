@@ -1,0 +1,21 @@
+.Cardbox{
+    
+    box-sizing: border-box;
+  
+    height: 800px;
+    box-sizing: border-box;
+}
+
+.crr{
+    display: flex;
+    margin: 15px;
+    flex-wrap: wrap;
+    
+}
+.card-img-top{
+    width: 100%;
+    height: 350px;
+}
+.h5{
+    font-size: 21px;
+}

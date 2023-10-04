@@ -1,0 +1,179 @@
+.mainimage{
+    height: 100vh;
+    width: 100%;
+    z-index: -99;
+    
+}
+.head{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.head-2{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom:3px;
+}
+.tvimage{position: absolute;
+    right: 0%;
+    height: 412px;
+    width: 607px;
+    
+}
+.enjoytv{position: absolute;
+    left: 0%;
+    background-color: black;
+    color: aliceblue;
+    height: 73vh;
+    width: 55%;
+    align-items: center;
+    
+}
+.Boxx{
+   position: absolute;
+    left: 0;
+    margin-top: 478px; 
+    z-index: 22;
+}
+.heading{
+
+    font-size: 20px;
+    color: white;
+position: absolute;
+top: 31%;
+left: 19%;
+
+
+}
+input{
+    width: 60%;
+    height: 46px;
+    border: none;
+}
+button{
+    width: 124px;
+    height: 50px;
+   
+    background-color: red;
+    border: none;
+}
+.black{
+    position: absolute;
+    right: 0;
+    top: 1118px;
+    background-color: black;
+    height: 480px;
+    width: 709px;
+    color: white;
+    font-size: 25px;
+}
+.black> div{
+    position: relative;
+    top: 77px;
+}
+.black>div>h2{
+    font-size: 53px;
+}
+.black>div>p{
+    font-size: 30px;
+}
+.another{
+    width: 1346px;
+    height: 503px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 1643px;
+    margin-left: 0px;
+}
+.laptop{
+    position: relative;
+   
+    top: 30px;
+    display: inline-block;
+
+}
+.anotherdiv{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    left: -7px;
+    top: -169px;
+
+}
+.another>div>h2{
+    font-size: 53px;
+}
+.another>div>p{
+    font-size: 30px;
+} 
+.another-2{
+    width: 1346px;
+    height: 503px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2159px;
+    margin-left: 0px;
+}
+.laptop-2{
+    left: -342px;
+    position: relative;
+    top: -231px;
+
+}
+.anotherdiv-2{
+    width: 47%;
+    right: -680px;
+    position: relative;
+    top: 47px;
+}
+.another-2>div>h2{
+    font-size: 53px;
+}
+.another-2>div>p{
+    font-size: 20px;
+} 
+.footer{
+    height: 500px;
+    
+    position: relative;
+    top: 1978px;
+    background-color: black;
+}
+.footermain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footerr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    font-size: 20px;
+    margin: 15px;
+color: white;
+margin-left: 0px;
+padding-left: 0px;
+}
+.footer> p{
+    color: white;
+    left: -477px;
+    position: relative;
+    font-size: 17px;
+    color: white;
+}
+select{
+    width: 73px;
+    height: 27px;
+    border: none;
+    margin-left: -870px;
+    margin-top: 25px;
+}
+.fff{
+    color: white;
+    margin-left: 95px;
+    font-size: 15px;
+
+}
